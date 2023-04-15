@@ -1,0 +1,51 @@
+.ppt {
+  min-width: 40%;
+}
+.expression {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.token {
+  font-size: 1.5rem;
+  padding: 0.3rem;
+}
+.token.selected {
+  color: tomato;
+}
+.token.stacked {
+  background: hsl(17, 100%, 74%);
+  border: 0.125rem solid hsl(17, 100%, 40%);
+  text-align: center;
+}
+
+.board {
+  display: flex;
+}
+.stack {
+  width: 8rem;
+  height: 12rem;
+  background: hsl(210, 100%, 75%);
+  border: 0.125rem solid hsl(210, 100%, 40%);
+  border-top: none;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 0.125rem;
+  padding: 0.125rem;
+}
+.calculator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.controller {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+.controller button {
+  padding: 0.125rem 0.5rem;
+  font-size: 1rem;
+}
